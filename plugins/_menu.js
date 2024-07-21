@@ -26,7 +26,7 @@ Description : ${i.desc}\`\`\``
     } else {
       let { prefix } = message;
       let [date, time] = new Date()
-        .toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })
+        .toLocaleString("en-IN", { timeZone: "Africa/casablanca" })
         .split(",");
       let currentTime = new Date();
       let runtime = clockString(currentTime - botStartTime);
